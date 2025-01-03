@@ -19,3 +19,11 @@ function isAuth() : void {
         header('Location: /');
     }
 }
+
+
+
+function pausaEjemplo($segundos) {
+                 
+    sleep($segundos);
+    
+}
